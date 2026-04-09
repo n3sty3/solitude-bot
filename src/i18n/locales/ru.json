@@ -1,0 +1,201 @@
+{
+    "common": {
+        "error": "❌ Произошла ошибка при выполнении команды.",
+        "modal_error": "❌ Произошла ошибка при обработке формы.",
+        "no_permission": "❌ У вас нет прав для использования этой команды.",
+        "not_setup": "⚠️ Сервер ещё не настроен. Администратор должен запустить `/setup`.",
+        "success": "✅ Готово!",
+        "cancelled": "Отменено.",
+        "page": "Страница {current}/{total}",
+        "no_data": "Данные не найдены."
+    },
+    "setup": {
+        "title": "⚙️ Настройка Solitude",
+        "description": "Настройте Solitude для вашего сервера. Выберите каналы для каждой функции.",
+        "channel_set": "✅ Канал для **{feature}** установлен: {channel}",
+        "complete": "✅ Настройка завершена! Solitude готов к работе.",
+        "already_setup": "Сервер уже настроен. Запустите `/setup` снова для перенастройки."
+    },
+    "language": {
+        "title": "🌍 Язык",
+        "changed": "✅ Язык изменён на **{lang}**",
+        "current": "Текущий язык: **{lang}**"
+    },
+    "result": {
+        "title": "🏆 Новый результат!",
+        "tournament_label": "🎮 Турнир / Режим",
+        "placement_label": "📊 Плейсмент",
+        "kills_label": "💀 Килы",
+        "points_label": "⭐ Очки",
+        "comment_label": "💬 Комментарий",
+        "logged": "✅ Результат записан!",
+        "not_specified": "Не указано",
+        "modal_title": "🏆 Записать результат",
+        "field_tournament": "Турнир / Режим игры",
+        "field_placement": "Плейсмент (1-е место, топ 5)",
+        "field_kills": "Килы",
+        "field_points": "Очки",
+        "field_comment": "Комментарий (необязательно)"
+    },
+    "fix": {
+        "title": "🔧 Фикс {emoji}",
+        "problem_label": "❌ Проблема",
+        "solution_label": "✅ Как фиксить",
+        "logged": "✅ Фикс записан!",
+        "resolved": "✅ Исправлено!",
+        "status_open": "Открыто",
+        "status_in_progress": "В процессе",
+        "status_resolved": "Решено",
+        "modal_title": "🔧 Записать фикс",
+        "field_problem": "В чём проблема?",
+        "field_solution": "Как решить? (необязательно)",
+        "field_priority": "Приоритет (high / medium / low)"
+    },
+    "drop": {
+        "title": "📍 {name}",
+        "description_label": "📝 Описание",
+        "loot_route_label": "🗺️ Лут-рут",
+        "map_label": "🔗 Карта",
+        "map_link_text": "Открыть на Fortnite.gg",
+        "logged": "✅ Точка дропа сохранена!",
+        "modal_title": "📍 Сохранить точку дропа",
+        "field_name": "Название точки",
+        "field_description": "Описание",
+        "field_loot_route": "Лут-рут (необязательно)",
+        "field_map_link": "Ссылка на карту (необязательно)"
+    },
+    "strategy": {
+        "title": "{emoji} {title}",
+        "type_label": "Тип",
+        "description_label": "📝 Описание",
+        "when_label": "⏰ Когда использовать",
+        "logged": "✅ Стратегия сохранена!",
+        "types": {
+            "rotation": "Ротация",
+            "zone": "Зона",
+            "fight": "Файт",
+            "position": "Позиция",
+            "endgame": "Эндгейм",
+            "early_game": "Ранняя игра"
+        },
+        "modal_title": "📋 Сохранить стратегию",
+        "field_type": "Тип (rotation / zone / fight / position / endgame / early_game)",
+        "field_title": "Название стратегии",
+        "field_description": "Описание",
+        "field_when": "Когда использовать? (необязательно)"
+    },
+    "tournament": {
+        "title": "🏆 {name}",
+        "placement_label": "📊 Плейсмент",
+        "points_label": "⭐ Очки",
+        "kills_label": "💀 Килы",
+        "best_game_label": "🔥 Лучший матч",
+        "games_label": "🎮 Игр сыграно",
+        "teammates_label": "👥 Тиммейты",
+        "issues_label": "⚠️ Что пошло не так",
+        "lessons_label": "📝 Выводы",
+        "logged": "✅ Турнир записан!",
+        "modal_title": "🏆 Записать турнир",
+        "field_name": "Название турнира",
+        "field_placement": "Итоговый плейсмент",
+        "field_points": "Всего очков",
+        "field_kills": "Всего килов",
+        "field_best_game": "Лучший матч (необязательно)",
+        "field_issues": "Что пошло не так? (необязательно)"
+    },
+    "grind": {
+        "start_title": "🎯 Грайнд-сессия началась!",
+        "end_title": "✅ Грайнд-сессия завершена!",
+        "goals_label": "Цели",
+        "focus_label": "🎯 Фокус",
+        "duration_label": "⏱️ Длительность",
+        "summary_label": "📋 Что отработано",
+        "rating_label": "⭐ Самооценка",
+        "no_goals": "Цели не указаны",
+        "session_id": "Сессия #{id}",
+        "already_active": "⚠️ У тебя уже есть активная сессия! Заверши её через `/grind end`.",
+        "no_active": "⚠️ У тебя нет активной сессии. Начни через `/grind start`.",
+        "started": "✅ Грайнд-сессия началась! Фокус 💪",
+        "ended": "✅ Сессия завершена! Отлично 🔥",
+        "focus_types": {
+            "aim": "🎯 Аим-тренировка",
+            "builds": "🏗️ Застройка",
+            "edits": "✏️ Эдиты",
+            "rotations": "🔄 Ротации",
+            "boxfights": "📦 Бокс-файты",
+            "scrims": "⚔️ Скримы",
+            "vod_review": "🎬 Разбор VOD",
+            "general": "🎮 Общее"
+        },
+        "modal_start_title": "🎯 Начать грайнд-сессию",
+        "field_goals": "Какие цели на сессию?",
+        "field_focus": "Фокус (aim / builds / edits / rotations / boxfights / scrims / general)",
+        "modal_end_title": "✅ Завершить грайнд-сессию",
+        "field_summary": "Что отработал / чего достиг?",
+        "field_rating": "Оцени сессию (1-10)"
+    },
+    "vod": {
+        "title": "🎬 Разбор реплея (VOD Review)",
+        "link_label": "📺 Клип",
+        "link_text": "Смотреть видео",
+        "timestamp_label": "⏱️ Таймкод",
+        "mistake_label": "❌ Ошибка",
+        "fix_label": "💡 Как избежать",
+        "severity_label": "🔴 Серьёзность",
+        "logged": "✅ VOD-разбор отправлен!",
+        "modal_title": "🎬 Разбор реплея (VOD)",
+        "field_link": "Ссылка на клип (YouTube/Twitch/Medal)",
+        "field_timestamp": "Таймкод ошибки",
+        "field_mistake": "В чём ошибка?",
+        "field_fix": "Как не допустить в будущем?"
+    },
+    "stats": {
+        "title": "📈 Статистика: {name}",
+        "level": "🔥 Уровень",
+        "wins": "🏆 Победы",
+        "win_rate": "📊 Винрейт",
+        "kd": "🎯 K/D",
+        "kills": "💀 Килы",
+        "playtime": "⏰ Время в игре",
+        "not_found": "❌ Игрок **{name}** не найден или профиль закрыт.",
+        "api_error": "❌ Ошибка при обращении к Fortnite API.",
+        "hours": "{h} часов"
+    },
+    "goal": {
+        "title": "🎯 Цель установлена!",
+        "target_label": "Цель",
+        "category_label": "Категория",
+        "deadline_label": "⏰ Дедлайн",
+        "completed": "✅ Цель достигнута!",
+        "logged": "✅ Цель установлена! Погнали 💪",
+        "no_goals": "У тебя нет активных целей. Установи через `/goal set`.",
+        "progress_title": "📋 Твои цели"
+    },
+    "warmup": {
+        "title": "🏋️ Разминка",
+        "description": "Вот твоя разминка на сегодня. Выполни каждое упражнение перед игрой.",
+        "drill_label": "Упражнение {n}",
+        "duration_label": "⏱️ Общее время",
+        "generated": "💪 Разминка готова! Погнали!"
+    },
+    "leaderboard": {
+        "title": "🏅 Лидерборд — {type}",
+        "kills": "Топ фраггеры",
+        "placements": "Лучшие плейсменты",
+        "grind": "Больше всего часов грайнда",
+        "empty": "Данных пока нет. Начни записывать результаты!"
+    },
+    "news": {
+        "footer": "Fortnite Новости • fortnite-api.com"
+    },
+    "help": {
+        "title": "📖 Solitude — Команды",
+        "description": "Твой компаньон для тренировок в Fortnite.",
+        "training_title": "🏋️ Тренировки и Грайнд",
+        "competitive_title": "🏆 Соревнования и Результаты",
+        "review_title": "🔍 Разбор и Улучшение",
+        "intel_title": "📡 Информация о соревнованиях",
+        "admin_title": "⚙️ Администрирование",
+        "footer": "Solitude Bot • Трудись больше всех."
+    }
+}

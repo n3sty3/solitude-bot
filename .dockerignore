@@ -1,0 +1,6 @@
+.env
+node_modules
+grindcord.db
+*.db
+.gitignore
+README.md

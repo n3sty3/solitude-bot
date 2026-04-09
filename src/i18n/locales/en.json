@@ -1,0 +1,201 @@
+{
+    "common": {
+        "error": "❌ An error occurred while executing this command.",
+        "modal_error": "❌ An error occurred while processing the form.",
+        "no_permission": "❌ You don't have permission to use this command.",
+        "not_setup": "⚠️ This server hasn't been set up yet. An admin should run `/setup` first.",
+        "success": "✅ Done!",
+        "cancelled": "Cancelled.",
+        "page": "Page {current}/{total}",
+        "no_data": "No data found."
+    },
+    "setup": {
+        "title": "⚙️ Solitude Setup",
+        "description": "Configure Solitude for your server. Select which channels to use for each feature.",
+        "channel_set": "✅ Channel for **{feature}** set to {channel}",
+        "complete": "✅ Setup complete! Solitude is ready to use.",
+        "already_setup": "This server is already set up. Run `/setup` again to reconfigure."
+    },
+    "language": {
+        "title": "🌍 Language",
+        "changed": "✅ Language changed to **{lang}**",
+        "current": "Current language: **{lang}**"
+    },
+    "result": {
+        "title": "🏆 New Result!",
+        "tournament_label": "🎮 Tournament / Mode",
+        "placement_label": "📊 Placement",
+        "kills_label": "💀 Kills",
+        "points_label": "⭐ Points",
+        "comment_label": "💬 Comment",
+        "logged": "✅ Result logged!",
+        "not_specified": "Not specified",
+        "modal_title": "🏆 Log Match Result",
+        "field_tournament": "Tournament / Game Mode",
+        "field_placement": "Placement (e.g. 1st, top 5)",
+        "field_kills": "Kills",
+        "field_points": "Points",
+        "field_comment": "Comment (optional)"
+    },
+    "fix": {
+        "title": "🔧 Fix {emoji}",
+        "problem_label": "❌ Problem",
+        "solution_label": "✅ How to fix",
+        "logged": "✅ Fix logged!",
+        "resolved": "✅ Fixed!",
+        "status_open": "Open",
+        "status_in_progress": "In Progress",
+        "status_resolved": "Resolved",
+        "modal_title": "🔧 Log a Fix",
+        "field_problem": "What's the problem?",
+        "field_solution": "How to fix it? (optional)",
+        "field_priority": "Priority (high / medium / low)"
+    },
+    "drop": {
+        "title": "📍 {name}",
+        "description_label": "📝 Description",
+        "loot_route_label": "🗺️ Loot Route",
+        "map_label": "🔗 Map",
+        "map_link_text": "Open on Fortnite.gg",
+        "logged": "✅ Drop spot saved!",
+        "modal_title": "📍 Save Drop Spot",
+        "field_name": "Spot Name",
+        "field_description": "Description",
+        "field_loot_route": "Loot Route (optional)",
+        "field_map_link": "Map Link (optional)"
+    },
+    "strategy": {
+        "title": "{emoji} {title}",
+        "type_label": "Type",
+        "description_label": "📝 Description",
+        "when_label": "⏰ When to use",
+        "logged": "✅ Strategy saved!",
+        "types": {
+            "rotation": "Rotation",
+            "zone": "Zone",
+            "fight": "Fight",
+            "position": "Position",
+            "endgame": "Endgame",
+            "early_game": "Early Game"
+        },
+        "modal_title": "📋 Save Strategy",
+        "field_type": "Type (rotation / zone / fight / position / endgame / early_game)",
+        "field_title": "Strategy Title",
+        "field_description": "Description",
+        "field_when": "When to use? (optional)"
+    },
+    "tournament": {
+        "title": "🏆 {name}",
+        "placement_label": "📊 Placement",
+        "points_label": "⭐ Points",
+        "kills_label": "💀 Kills",
+        "best_game_label": "🔥 Best Game",
+        "games_label": "🎮 Games Played",
+        "teammates_label": "👥 Teammates",
+        "issues_label": "⚠️ What went wrong",
+        "lessons_label": "📝 Lessons Learned",
+        "logged": "✅ Tournament logged!",
+        "modal_title": "🏆 Log Tournament",
+        "field_name": "Tournament Name",
+        "field_placement": "Final Placement",
+        "field_points": "Total Points",
+        "field_kills": "Total Kills",
+        "field_best_game": "Best Game (optional)",
+        "field_issues": "What went wrong? (optional)"
+    },
+    "grind": {
+        "start_title": "🎯 Grind Session Started!",
+        "end_title": "✅ Grind Session Complete!",
+        "goals_label": "Goals",
+        "focus_label": "🎯 Focus",
+        "duration_label": "⏱️ Duration",
+        "summary_label": "📋 What was practiced",
+        "rating_label": "⭐ Self Rating",
+        "no_goals": "No goals set",
+        "session_id": "Session #{id}",
+        "already_active": "⚠️ You already have an active session! End it first with `/grind end`.",
+        "no_active": "⚠️ You don't have an active session. Start one with `/grind start`.",
+        "started": "✅ Grind session started! Focus up 💪",
+        "ended": "✅ Session complete! Great work 🔥",
+        "focus_types": {
+            "aim": "🎯 Aim Training",
+            "builds": "🏗️ Building",
+            "edits": "✏️ Editing",
+            "rotations": "🔄 Rotations",
+            "boxfights": "📦 Box Fights",
+            "scrims": "⚔️ Scrims",
+            "vod_review": "🎬 VOD Review",
+            "general": "🎮 General"
+        },
+        "modal_start_title": "🎯 Start Grind Session",
+        "field_goals": "What are your goals for this session?",
+        "field_focus": "Focus area (aim / builds / edits / rotations / boxfights / scrims / general)",
+        "modal_end_title": "✅ End Grind Session",
+        "field_summary": "What did you practice / accomplish?",
+        "field_rating": "Rate your session (1-10)"
+    },
+    "vod": {
+        "title": "🎬 VOD Review",
+        "link_label": "📺 Clip",
+        "link_text": "Watch Video",
+        "timestamp_label": "⏱️ Timestamp",
+        "mistake_label": "❌ Mistake",
+        "fix_label": "💡 How to avoid",
+        "severity_label": "🔴 Severity",
+        "logged": "✅ VOD review submitted!",
+        "modal_title": "🎬 VOD Review",
+        "field_link": "Clip link (YouTube/Twitch/Medal)",
+        "field_timestamp": "Timestamp of mistake",
+        "field_mistake": "What was the mistake?",
+        "field_fix": "How to avoid it next time?"
+    },
+    "stats": {
+        "title": "📈 Stats: {name}",
+        "level": "🔥 Level",
+        "wins": "🏆 Wins",
+        "win_rate": "📊 Win Rate",
+        "kd": "🎯 K/D",
+        "kills": "💀 Kills",
+        "playtime": "⏰ Playtime",
+        "not_found": "❌ Player **{name}** not found or profile is private.",
+        "api_error": "❌ Error fetching data from Fortnite API.",
+        "hours": "{h} hours"
+    },
+    "goal": {
+        "title": "🎯 Goal Set!",
+        "target_label": "Target",
+        "category_label": "Category",
+        "deadline_label": "⏰ Deadline",
+        "completed": "✅ Goal completed!",
+        "logged": "✅ Goal set! Let's get it 💪",
+        "no_goals": "You don't have any active goals. Set one with `/goal set`.",
+        "progress_title": "📋 Your Goals"
+    },
+    "warmup": {
+        "title": "🏋️ Warmup Routine",
+        "description": "Here's your warmup for today. Complete each drill before jumping into games.",
+        "drill_label": "Drill {n}",
+        "duration_label": "⏱️ Total time",
+        "generated": "💪 Warmup generated! Get moving!"
+    },
+    "leaderboard": {
+        "title": "🏅 Leaderboard — {type}",
+        "kills": "Top Fraggers",
+        "placements": "Best Placements",
+        "grind": "Most Grind Hours",
+        "empty": "No data yet. Start logging results!"
+    },
+    "news": {
+        "footer": "Fortnite News • fortnite-api.com"
+    },
+    "help": {
+        "title": "📖 Solitude — Commands",
+        "description": "Your competitive Fortnite training companion.",
+        "training_title": "🏋️ Training & Grind",
+        "competitive_title": "🏆 Competitive & Results",
+        "review_title": "🔍 Review & Improvement",
+        "intel_title": "📡 Competitive Intel",
+        "admin_title": "⚙️ Admin",
+        "footer": "Solitude Bot • Outwork everyone."
+    }
+}
